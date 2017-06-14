@@ -1,0 +1,20 @@
+{
+  "name": "spring-boot-rabbitmq-example",
+  "scripts": {
+  },
+  "env": {
+    "CLOUDAMQP_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "cloudamqp"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
